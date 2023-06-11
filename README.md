@@ -14,3 +14,13 @@ Thank you for providing the specific information about the required libraries an
 https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/setup
 
 In those examples, for communication with the MCP3208, you can utilize four GPIO pins: C0 for chip select, C1 for MISO (Master In Slave Out), C2 for MOSI (Master Out Slave In), and C3 for SCK (Serial Clock). These pins are used to (Serial Peripheral Interface) communication over SPI between the FT232H and the MCP3208.
+
+Python Application
+=======
+In the application, you have four buttons: "START," "STOP," a combo box with channels (from 0 to 7), and a combo box with ADC modes (single-ended or differential). When you click the "START" button, ADC measurements start for 1 second. In the graph, you have the last sixty measurements for the past minute. When you click the "STOP" button, the measurements and live graph also stop. You can also change the ADC mode to single-ended or differential mode.
+To start the application, you can modify the environment variable:
+
+                set BLINKA_FT232H=1
+                
+                python C:your_path\GUI.py
+
