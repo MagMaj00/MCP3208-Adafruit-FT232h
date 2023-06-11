@@ -27,7 +27,7 @@ Usage
           time.sleep(5)
           print(readvalue)
           
-  Before starting the application, you can modify the environment variable:
+  Before starting the python file, you can modify the environment variable:
    
           set BLINKA_FT232H=1
                 
