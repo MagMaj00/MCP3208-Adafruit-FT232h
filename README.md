@@ -19,13 +19,13 @@ Usage
 =======
 
 ## test.py
-  In this example you have only options for single-ended mode. You can change channel for 0 to 7 and time interval between measurements.
+  In this example you have only options for single-ended mode. You can change channel for 0 to 7 and time interval between measurements in while loop.
   
-  while True:
+          while True:
 
-  readvalue = read_adc_val(5)
-  time.sleep(5)
-  print(readvalue)
+          readvalue = read_adc_val(5)
+          time.sleep(5)
+          print(readvalue)
  
 ## Python Application
 
