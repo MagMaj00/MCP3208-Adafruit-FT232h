@@ -39,7 +39,7 @@ Usage
 In the application, you have four buttons: "START," "STOP," a combo box with channels (from 0 to 7), and a combo box with ADC modes (single-ended or differential). When you click the "START" button, ADC measurements start for every 1 second. In the graph, you have the last sixty measurements for the past minute. When you click the "STOP" button, the measurements and live graph also stop. You can also change the ADC mode to single-ended or differential mode.
 To start the application, you can modify the environment variable:
 
-                set BLINKA_FT232H=1
+           set BLINKA_FT232H=1
                 
-                python C:your_path\GUI.py
+           python C:your_path\GUI.py
 
