@@ -19,13 +19,20 @@ Usage
 =======
 
 ## test.py
-  In this example you have only options for single-ended mode. You can change channel for 0 to 7 and time interval between measurements in while loop.
+  In this example, you have options only for the single-ended mode. You can change the channel from 0 to 7 and the time interval between measurements in the while loop.
   
           while True:
 
           readvalue = read_adc_val(5)
           time.sleep(5)
           print(readvalue)
+          
+  Before starting the application, you can modify the environment variable:
+   
+          set BLINKA_FT232H=1
+                
+          python C:ypur_path\test.py
+   
  
 ## Python Application
 
