@@ -15,8 +15,20 @@ https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/setup
 
 In those examples, for communication with the MCP3208, you can utilize four GPIO pins: C0 for chip select, C1 for MISO (Master In Slave Out), C2 for MOSI (Master Out Slave In), and C3 for SCK (Serial Clock). These pins are used to (Serial Peripheral Interface) communication over SPI between the FT232H and the MCP3208.
 
-Python Application
+Usage
 =======
+
+## test.py
+  In this example you have only options for single-ended mode. You can change channel for 0 to 7 and time interval between measurements.
+  
+  while True:
+
+  readvalue = read_adc_val(5)
+  time.sleep(5)
+  print(readvalue)
+ 
+## Python Application
+
 In the application, you have four buttons: "START," "STOP," a combo box with channels (from 0 to 7), and a combo box with ADC modes (single-ended or differential). When you click the "START" button, ADC measurements start for every 1 second. In the graph, you have the last sixty measurements for the past minute. When you click the "STOP" button, the measurements and live graph also stop. You can also change the ADC mode to single-ended or differential mode.
 To start the application, you can modify the environment variable:
 
