@@ -25,3 +25,7 @@ SOFTWARE.
 Adafruit invests time and resources providing this open source design, please support Adafruit and open-source hardware by purchasing products from Adafruit!
 
 All text above must be included in any redistribution
+
+---------------------------------------------------------------------------
+
+Inspiration of communication with MCP3208 derived from Arduino Playground: https://playground.arduino.cc/Code/MCP3208/
