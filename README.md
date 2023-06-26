@@ -8,6 +8,8 @@ The MCP3208 is an 8-channel, 12-bit ADC chip. It offers two modes for ADC measur
 To learn more details about this chip, you can refer to its datasheet:
 https://www.alldatasheet.com/datasheet-pdf/pdf/74937/MICROCHIP/MCP3208.html
 
+During the development of the code for communication with the ADC chip, inspiration was code from arduino playground: https://playground.arduino.cc/Code/MCP3208/
+
 Adafruit-FT232h
 =======
 Thank you for providing the specific information about the required libraries and the link for installation instructions. Users can follow the instructions provided in the link you shared to install the "pyftdi" Python libraries for proper communication between the computer and the FT232H converter. The link you provided offers detailed steps and guidance on setting up CircuitPython on any computer with the FT232H. It is recommended to follow the instructions provided in the official Adafruit guide for a successful installation and testing of the connection:
