@@ -33,7 +33,7 @@ Usage
    
           set BLINKA_FT232H=1
                 
-          python C:ypur_path\test.py
+          python C:your_path\test.py
    
  
 ## Python Application
